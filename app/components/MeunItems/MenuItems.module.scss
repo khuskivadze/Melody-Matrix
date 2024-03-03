@@ -1,0 +1,42 @@
+@import '../../colors.scss';
+
+.menuItems{
+    width: 768px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px; 
+   
+}
+.item{
+    width: 107px;
+    height: 30px;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+.item a {
+    color: $white;
+    font-size: 20px;
+}
+.item:first-child {
+    width: 107px;
+    height: 30px;  
+}
+.item:nth-child(2){
+    width: 123px;
+    height: 30px; 
+}
+.item:nth-child(3){
+    width: 166px;
+    height: 30px;   
+}
+.item:nth-child(4){
+    width: 84px;
+    height: 30px;
+     
+}

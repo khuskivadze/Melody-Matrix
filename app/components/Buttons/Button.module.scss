@@ -1,0 +1,41 @@
+@import '../../../app/colors.scss';
+
+
+.singIn {
+    
+     width: 134px;
+     height: 45px;
+     border: 1px solid $white;
+     border-radius: 12px;
+}
+
+
+.outline  {
+    background: none;
+    color: $white;
+    font-size: 20px;
+    transition: all .2s ease;
+}
+ 
+
+.outline:hover:enabled{
+    border: 1px solid $Secondary;
+ 
+}
+.outline:active:enabled{
+    border: 1px solid $Complementary;
+  
+}
+.button {
+     
+    width: 134px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    box-shadow: -2px 0px 13px 1px rgba(0,0,0,0.7);
+
+     
+}
