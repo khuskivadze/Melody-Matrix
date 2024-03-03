@@ -1,0 +1,93 @@
+@import '../../../../app/colors.scss';
+
+.section {
+    width: 1455px;
+    height:  650px;
+  
+ 
+    background-image:url('/vecteezy_vector-sound-wave-abstract-colorful-digital-equalizer_3705349.png'),
+    url('/Line 2.png'), url('/Line 1.png' ) ;
+    background-repeat: no-repeat, no-repeat , no-repeat;
+    background-size: cover, cover, cover;
+
+    background-position: center, center, center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+    
+  
+}
+
+.trends{
+    width: 1400px;
+    height:  597px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.heading{
+    width: 1400px;
+    height: 58px;
+    background-color: saddlebrown;
+    display: flex;
+    align-items: center;
+    
+}
+.heading h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    color: $white;
+    letter-spacing: .5px;
+}
+
+.Trends_lists {
+    width: 1400px;
+    height: 480px;
+    background-color: rgb(0, 0, 0, 20%);
+    justify-content: space-between;
+ 
+  
+}
+
+.box{
+    width: 350px;
+    height: 85px;
+    background-attachment: 200px;
+    background-color: $DarckBlack;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.box .img{
+    width: 91px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+     
+}
+.title p {
+    color: $white;
+    font-size: 17px
+}
+.title span {
+    color: rgba(255, 255, 255, 0.286);
+    font-size: 17px
+}
+ 
+ 

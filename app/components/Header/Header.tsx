@@ -1,16 +1,22 @@
 import styles from './Header.module.scss';
-import Menu from '../Menu/Menu';
+import HeaderCont from './HeaderContent/HeaderCont';
+import Menu from './Menu/Menu';
  
 
 
 export default () => {
     return (
         <header className= {styles.header}>
-           <section className= {styles.overlay}>
+          <section className= {styles.overlay}>
             <Menu/>
+            <HeaderCont/>
 
-
-           </section>    
+             
+            
+             
+          </section>  
+          
+            
         </header>
      
     )
