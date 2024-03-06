@@ -206,8 +206,10 @@ export default () => {
                                                            
                             </div>
                        </div>
+
+
                        <div>
-                       <div style={contentStyle}>
+                            <div style={contentStyle}>
                                 <div className= {styles.box}>
                                     <div className= {styles.img}>
                                         <img src="/card17.png" alt="" />
