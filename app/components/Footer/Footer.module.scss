@@ -1,0 +1,137 @@
+@import '../../../app/colors.scss';
+
+
+.footer{
+    width: 1455px;
+    height: 392px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.top{
+    width: 1248px;
+    height: 217px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.menu{
+    width: 490px;
+    height: 145px;
+ 
+    display: flex;
+    align-items: center;
+    
+}
+.lists{
+    width: 490px;
+    height: 145px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  list-style: none;
+ 
+}
+ 
+.title{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: $white;
+}
+ 
+.lists .text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+
+    color: $white;
+}
+ 
+
+.contact{
+    width: 511px;
+    height: 145px;
+    
+    display: flex;
+   
+     
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.form label {
+    width: 300px;
+    height: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: $white;
+    padding-left: 20px;
+    
+}
+.form div {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+
+.form div input {
+    width: 315px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+
+
+.line{
+    width: 1343px;
+    height: 0;
+    border: 2px solid $DarckGrey;
+}
+
+
+
+.bottom{
+    width: 1343px;
+    height: 20px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.bottom p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: $white;
+}
+.social{
+    width: 150px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    color: $white;
+    cursor: pointer;
+}

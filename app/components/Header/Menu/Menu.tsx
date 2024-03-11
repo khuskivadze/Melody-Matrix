@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Logo from '../Logo/Logo'
 import MenuItems from '../MeunItems/MenuItems'
 import Singin from '../SingIn/Singin'
@@ -8,7 +9,9 @@ export default () => {
         <section className= {styles.menu}>
             <Logo/>
             <MenuItems/>
-            <Singin/>
+            <Link href="/">
+                  <Singin/>
+            </Link>
 
            
         </section>

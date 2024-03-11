@@ -5,6 +5,7 @@ import "./globals.css";
  
 import Menu from "./components/Header/Menu/Menu";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,7 @@ export default function RootLayout({
       
           
           {children}
- 
+          <Footer/>
         
         
         
